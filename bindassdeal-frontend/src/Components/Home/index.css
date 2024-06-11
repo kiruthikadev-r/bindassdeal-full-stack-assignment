@@ -1,0 +1,91 @@
+/* landingPage.css */
+
+.landingPage {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .landingPage h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .landingPage input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .landingPage button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .landingPage .sortButton {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .landingPage .sortButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .landingPage .newItemContainer {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .landingPage .newItemContainer input[type="text"] {
+    flex: 1;
+  }
+  
+  .landingPage .addButton {
+    flex: 0 0 auto;
+    background-color: #28a745;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .landingPage .addButton:hover {
+    background-color: #218838;
+  }
+  
+  .itemTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .itemTable th, .itemTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .itemTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .itemTable td {
+    text-align: center;
+  }
+  
+  .landingPage .editButton, .landingPage .deleteButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .landingPage .editButton:hover, .landingPage .deleteButton:hover {
+    background-color: #f8f9fa;
+  }
+  
